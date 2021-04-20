@@ -39,14 +39,30 @@ font-size: 78px;
     outline:none;
 }
 
+.container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 </style>
 
 <title>Friday Night Funkin'</title>
 
 </head>
 <body>
-
-    <button onclick="location.href = 'https://ninja-muffin24.itch.io/funkin';" id="myButton" class="float-left submit-button" style="width:500px;height:200px;">PLAY</button>
-
+<div class="container">
+  <div class="center">
+    <button onclick="location.href = 'https://ninja-muffin24.itch.io/funkin';" id="myButton" class="float-left submit-button" style="width:200px;height:70px;">PLAY</button>
+  </div>
+</div>
 </body>
 </html>
