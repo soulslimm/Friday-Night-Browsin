@@ -1,4 +1,4 @@
-# [Friday Night Browsin](https://soulslimm.github.io/Friday-Night-Browsin/)
+# [Friday Night Browsin](https://funkin.tk)
 Friday Night Funkin' website mockup.
 
 ### THIS IS UNOFFICIAL 
