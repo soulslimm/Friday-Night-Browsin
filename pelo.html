@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <style id="compiled-css" type="text/css">
+      html, body {
+    width:100%;
+    height:100%;
+}
+div.horizontal {
+    display: flex;
+    justify-content: center;
+}
+div.vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div.div {
+    background-color: #fcf;
+    width: 100%;
+    height: 100%;
+}
+img {
+    width: 100px;
+    height: 100px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+    /* EOS */
+  </style>
+</head>
+
+<body>
+<div class="horizontal div">
+    <div class="vertical">
+        <img src="pelo.png" />
+    </div>
+</div>
+  </body>
+</html>
